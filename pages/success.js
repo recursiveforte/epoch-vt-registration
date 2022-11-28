@@ -34,7 +34,7 @@ export default function Register({ notFound, registrationRecord, params }) {
         <br />
         <br />
         <Text>
-          ❤️ You're registered for Epoch VT! We really hope we can meet you! Make sure you check your email in
+          ❤️ You're registered for Epoch VT, and we can't wait to meet you! Make sure you check your email in
           the coming days and weeks for important updates.
           <br/><br/>
           Feel free to contact{' '}
@@ -49,8 +49,7 @@ export default function Register({ notFound, registrationRecord, params }) {
             sx={{ color: 'pink' }}
           >
             Hack Club
-          </Text>{' '}
-          a nonprofit network of high school coding clubs and makers around the world, and the organization behind this event.
+          </Text>, a nonprofit network of high school coding clubs and makers around the world, and the organization behind this event.
         </Text>
       </Card>
     </Container>
