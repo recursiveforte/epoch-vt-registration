@@ -9,6 +9,7 @@ import Flag from '../components/flag'
 import NProgress from '../components/nprogress'
 import Meta from '../components/meta'
 import Head from 'next/head'
+import Snow from "../components/snow";
 
 export default class App extends NextApp {
   render() {
@@ -17,14 +18,12 @@ export default class App extends NextApp {
       <ThemeProvider theme={theme}>
         <Meta
           as={Head}
-          name="Join Us At Assemble!" // site name
-          title="Join Us At Assemble!" // page title
-          description="" // page description
+          name="Register for Epoch VT!" // site name
+          title="Register for Epoch VT!" // page title
           image="https://cloud-bs04w09ot-hack-club-bot.vercel.app/0image.png" // large summary card image URL
-          color="#ec3750" // theme color
         />
         <Flag />
-        <NProgress color={'#ec3750'} />
+        <NProgress color={'rgba(255, 71, 148, 1)'} />
         <ForceTheme theme="light" />
         <div
           style={{
@@ -43,24 +42,16 @@ export default class App extends NextApp {
               zIndex: 1,
               height: '100vh',
               width: '100vw',
-              backgroundImage: 'url("/msw-bg.png")',
+              backgroundImage: 'linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0,0.9) 100%), url("https://epoch.hackclub.com/assemble.jpg")',
               backgroundSize: 'cover',
-              backgroundPosition: 'bottom-left',
+              backgroundPosition: 'bottom',
               overflowY: 'scroll'
             }}
           >
+            <Snow />
             <Component {...pageProps} />
           </div>
         </div>
-        <style>
-          {`
-          @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-
-          * {
-            box-sizing: border-box;
-          }
-        `}
-        </style>
       </ThemeProvider>
     )
   }

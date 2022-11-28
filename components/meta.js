@@ -9,7 +9,7 @@ const Meta = ({
   title = 'Hack Club', // page title
   description,
   image,
-  color = '#ec3750',
+  color = 'rgba(255, 71, 148, 1)',
   manifest = 'https://assets.hackclub.com/favicons/site.webmanifest',
   children
 }) => (

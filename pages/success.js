@@ -28,22 +28,29 @@ export default function Register({ notFound, registrationRecord, params }) {
           textAlign: 'left'
         }}
       >
-        <Text sx={{ color: 'red', fontSize: '27px', fontWeight: 800 }}>
+        <Text sx={{ color: 'pink', fontSize: '27px', fontWeight: 800 }}>
           Thank you for signing up!
         </Text>
         <br />
+        <br />
         <Text>
-          ❤️ You're on the waitlist! We really hope we can meet you! Make sure you check your email in
-          the coming days and weeks for important updates. Also, check out the{' '}
+          ❤️ You're registered for Epoch VT! We really hope we can meet you! Make sure you check your email in
+          the coming days and weeks for important updates.
+          <br/><br/>
+          Feel free to contact{' '}
+          <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a> for
+          help or if you have any questions!
+          <br/><br />
+          Also, check out{' '}
           <Text
             as={'a'}
-            href="https://hackclub.com/slack"
+            href="https://hackclub.com/"
             target="_blank"
-            sx={{ color: 'red' }}
+            sx={{ color: 'pink' }}
           >
-            Hack Club Slack
+            Hack Club
           </Text>{' '}
-          if you'd like to meet other hackers.
+          a nonprofit network of high school coding clubs and makers around the world, and the organization behind this event.
         </Text>
       </Card>
     </Container>
