@@ -95,7 +95,7 @@ export default function Register({ notFound, registrationRecord, params }) {
           <br />
           We'd be super excited to have you join us! If you're interested, fill out the form below to let us know and help us craft an amazing experience.
           <br/><br/>
-          Feel free to contact{' '}
+          Feel free to contact Cheru Berhanu at {' '}
           <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a> for
           help or if you have any questions!
         </Box>
