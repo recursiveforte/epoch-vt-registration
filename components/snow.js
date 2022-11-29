@@ -3,6 +3,9 @@ import { loadFull } from "tsparticles";
 import { Engine, Options } from "tsparticles-engine";
 
 const options = {
+  fullScreen: {
+    enable: false
+  },
   particles: {
     move: {
       direction: "bottom",
@@ -11,10 +14,10 @@ const options = {
       straight: false,
     },
     opacity: {
-      value: { min: 0.1, max: 0.7 },
+      value: { min: 0.1, max: 0.5 },
     },
     size: {
-      value: { min: 0.1, max: 5 },
+      value: { min: 0.1, max: 3 },
     },
     wobble: {
       distance: 20,
