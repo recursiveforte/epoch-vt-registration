@@ -95,6 +95,8 @@ export default function Register({ notFound, registrationRecord, params }) {
           <br />
           We'd be super excited to have you join us! If you're interested, fill out the form below to let us know and help us craft an amazing experience.
           <br/><br/>
+          Please keep in mind that registration does not guarantee a spot at Epoch VT. We'll send you an email after you register with a waiver, and you'll be expected to fill that out in a timely manner.
+          <br/><br/>
           Feel free to contact Cheru Berhanu at {' '}
           <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a> for
           help or if you have any questions!

@@ -34,7 +34,7 @@ export default function Register({ notFound, registrationRecord, params }) {
         <br />
         <br />
         <Text>
-          ❤️ You're registered for Epoch VT, and we can't wait to meet you! Make sure you check your email in
+          ❤️ You're registered for Epoch VT, and we can't wait to meet you! Make sure you <strong>check your email</strong> in
           the coming days and weeks for important updates.
           <br/><br/>
           Feel free to contact Cheru Berhanu at {' '}
