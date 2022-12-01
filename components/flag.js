@@ -14,8 +14,8 @@ const Flag = props => (
           background-size: contain;
           cursor: pointer;
           flex-shrink: 0;
-          width: 112px;
-          height: 48px;
+          width: 149px;
+          height: 96px;
           position: fixed;
           top: 32px;
           left: 0;
@@ -24,7 +24,7 @@ const Flag = props => (
         @media (min-width: 600px) {
           a {
             display: inline-block;
-            height: 64px;
+            height: 96px;
           }
         }
         @media (prefers-reduced-motion: no-preference) {

@@ -35,7 +35,7 @@ export default function Register({ notFound, registrationRecord, params }) {
         <br />
         <Text>
           ❤️ You're registered for Epoch VT, and we can't wait to meet you! Make sure you <strong>check your email</strong> in
-          the coming days and weeks for important updates.
+          the coming days and weeks for important updates. In particular, <strong>look for an email from DocuSign!</strong>
           <br/><br/>
           Feel free to contact Cheru Berhanu at {' '}
           <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a> for
